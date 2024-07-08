@@ -2,14 +2,14 @@ import { writable } from 'svelte/store';
 
 const CurrentPalettes = [
   {
-    name: "Summer Sun",
-    date: "2024-06-24",
-    colours: ['#fbf4f1', '#1c0f07', '#cb6b35', '#e0d386', '#d7da6c']
-  },
-  {
     name: "Cotton Candy",
     date: "2024-06-25",
     colours: ['#fbfcfd', '#0C0D16', '#6374ab', '#ba9dca', '#bb89c0']
+  },
+  {
+    name: "Summer Sun",
+    date: "2024-06-24",
+    colours: ['#fbf4f1', '#1c0f07', '#cb6b35', '#e0d386', '#d7da6c']
   },
   {
     name: "Purple",
