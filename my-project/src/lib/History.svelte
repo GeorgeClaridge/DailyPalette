@@ -41,7 +41,7 @@
                             </svg>
                         </div>
     
-                        <div class="bg-black bg-opacity-15 absolute bottom-0 opacity-0 p-1 group-hover:opacity-100 duration-200 rounded-tr-lg pr-2">
+                        <div class="bg-black bg-opacity-25 absolute bottom-0 opacity-0 p-1 group-hover:opacity-100 duration-200 rounded-tr-lg pr-2 rounded-bl-md">
                             <div class="text-sm lg:text-base text-white md:font-bold uppercase">{colour}</div>
                         </div>
                     </button>
