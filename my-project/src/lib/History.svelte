@@ -31,7 +31,7 @@
                 <div class="Date">{palette.date}</div>
             </div>
     
-            <div class="Colours flex flex-wrap gap-2 border-2 border-gray-200 p-2 md:p-4 rounded-lg">
+            <div class="Colours grid grid-cols-3 gap-2 border-2 border-gray-200 p-2 md:p-4 rounded-lg">
                 {#each palette.colours as colour}
                     <button class="colour h-24 grow group relative rounded-lg border-2 border-gray-200 active:opacity-50 active:border-green-500 duration-200" style="background-color: {colour};" on:click={() => CopyPalette(colour)}>
                         <div class="flex justify-center opacity-0 group-hover:opacity-100 duration-200">
@@ -41,8 +41,8 @@
                             </svg>
                         </div>
     
-                        <div class="bg-black bg-opacity-25 absolute bottom-0 opacity-0 p-1 group-hover:opacity-100 duration-200 rounded-tr-lg pr-2 rounded-bl-md">
-                            <div class="text-sm lg:text-base text-white md:font-bold uppercase">{colour}</div>
+                        <div class="bg-black bg-opacity-30 absolute bottom-0 opacity-0 p-1 group-hover:opacity-100 duration-200 rounded-tr-lg pr-2 rounded-bl-md">
+                            <div class="text-sm lg:text-base text-white tracking-wider md:font-bold uppercase">{colour}</div>
                         </div>
                     </button>
                 {/each}

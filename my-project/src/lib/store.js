@@ -4,7 +4,7 @@ const CurrentPalettes = [
   {
     name: "Cotton Candy",
     date: "2024-06-25",
-    colours: ['#fbfcfd', '#0C0D16', '#6374ab', '#ba9dca', '#bb89c0']
+    colours: ['#fbfcfd', '#0C0D16', '#6374ab', '#A5B3E0', '#ba9dca', '#bb89c0']
   },
   {
     name: "Summer Sun",
