@@ -26,7 +26,7 @@
 <div class="PaletteContainer grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 font-Space place-items-center mx-4">
     {#each palettes as palette}
         <div class="ContainerColor rounded-lg p-2 md:p-4 w-[100%]">
-            <div class="Header flex items-end pb-2 justify-between">
+            <div class="Header flex items-end pb-2 justify-between font-Space">
                 <div class="Name text-2xl font-bold">{palette.name}</div>
                 <div class="Date">{palette.date}</div>
             </div>
@@ -42,7 +42,7 @@
                         </div>
     
                         <div class="bg-black bg-opacity-30 absolute bottom-0 opacity-0 p-1 group-hover:opacity-100 duration-200 rounded-tr-lg pr-2 rounded-bl-md">
-                            <div class="text-sm lg:text-base text-white tracking-wider md:font-bold uppercase">{colour}</div>
+                            <div class="text-sm lg:text-base text-white tracking-widest md:font-bold uppercase">{colour}</div>
                         </div>
                     </button>
                 {/each}
